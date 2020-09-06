@@ -1,39 +1,78 @@
-.App {
-  text-align: center;
+html {
+  background-color: #fbfbfb;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Tela de Welcome */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.container-welcome {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.container-welcome img {
+  width: 30%;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+.container-welcome h2 {
+  width: 30%;
+  color: #cccccc;
+  font-size: 1.5em;
 }
+
+.card-help {
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.card-help-description {
+  display: flex;
+}
+
+.card-help-description p {
+  flex-basis: calc(40% - 10px);
+  text-align: justify;
+}
+
+.card-help-img-olistinho {
+  width: 20%;
+}
+
+.card-help-progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-help-progress button {
+  padding: 10px 20px;  
+}
+
+.card-help-barra {
+  background-color: black;
+  height: 18px;
+  width: 50px;
+}
+
+/* MEDIA 672px */
+
+@media screen and (max-width: 42em) {
+
+  .container-welcome h2 {
+    font-size: 1em;;
+  }
+} 
+
+/* MEDIA 512px */
+
+@media screen and (max-width: 32em) {
+
+  .container-welcome h2 {
+    width: 50%;
+  }
+} 

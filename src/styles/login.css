@@ -1,0 +1,13 @@
+.login {
+    align-items: center;
+    display: flex;
+    height: 10rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+    position: relative;
+    width: 60rem;
+  }
+
+.login-app {
+    flex-basis: 40%;
+}
