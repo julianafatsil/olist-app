@@ -3,7 +3,7 @@ import CardHelp from '../features/components/CardHelp';
 
 const Dashboard = () => {
   return <div>
-      {<CardHelp />}
+    {<CardHelp />}
     Dashboard
   </div>;
 }

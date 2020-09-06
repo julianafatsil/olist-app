@@ -2,6 +2,20 @@ html {
   background-color: #fbfbfb;
 }
 
+.btn-previous {
+  background: #989898;
+  box-shadow: 0px 4px 4px rgba(152, 152, 152, 0.25);
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.btn-next {
+  background: #18C429;
+  box-shadow: 0px 4px 4px rgba(152, 152, 152, 0.25);
+  border-radius: 10px;
+  color: #ffffff;
+}
+
 /* Tela de Welcome */
 
 .container-welcome {
@@ -21,42 +35,6 @@ html {
   width: 30%;
   color: #cccccc;
   font-size: 1.5em;
-}
-
-.card-help {
-  background-color: #cccccc;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-}
-
-.card-help-description {
-  display: flex;
-}
-
-.card-help-description p {
-  flex-basis: calc(40% - 10px);
-  text-align: justify;
-}
-
-.card-help-img-olistinho {
-  width: 20%;
-}
-
-.card-help-progress {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-help-progress button {
-  padding: 10px 20px;  
-}
-
-.card-help-barra {
-  background-color: black;
-  height: 18px;
-  width: 50px;
 }
 
 /* MEDIA 672px */
