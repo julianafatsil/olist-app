@@ -3,6 +3,7 @@ import Engatinhando from '../../image/olistinho-engatinhando.png';
 import Image from './Image';
 import Button from './Button';
 import { Redirect } from 'react-router-dom';
+import { Passo0, Passo1, Passo2, Passo3, Passo4, Passo5, Passo6, Passo7 } from '../../image/Index';
 import '../../styles/CardHelp.css';
 
 const PassoHelp = [
@@ -54,12 +55,36 @@ const PassoHelp = [
 ];
 
 const getImage = (codigoInage) => {
+  let newImage = Passo0;
   switch(codigoInage) {
+    case 1:
+      newImage = Passo1;
+      break;
+    case 2:
+      newImage = Passo2;
+      break;
+    case 3:
+      newImage = Passo3;
+      break;
+    case 4:
+      newImage = Passo4;
+      break;
+    case 5:
+      newImage = Passo5;
+      break;
+    case 6:
+      newImage = Passo6;
+      break;
+      case 7:
+        newImage = Passo7;
+        break;
     default:
-      return <Image src={Engatinhando} width={100} alt={PassoHelp[codigoInage].Titulo} className="card-help-image-step" />
+      newImage = Passo0;
       break;
   }
+  return <Image src={newImage} width={100} alt={PassoHelp[codigoInage].Titulo} className="card-help-image-step" />
 }
+
 
 const CardHelp = () => {
   const [step, setStep] = useState(0);

@@ -1,11 +1,10 @@
-import Passo0 from './cadastro-rapido-produtos.png';
-import Passo1 from './tela-competitividade.png';
-import Passo2 from './categorizacao-automatica-produtos.png';
-// import Passo3 from './';
-// import Passo4 from './';
-// import Passo5 from './';
-// import Passo6 from './';
-// import Passo7 from './';
-// import Passo8 from './';
+export { default as Passo0 } from './cadastro-rapido-produtos.png';
+export { default as Passo1 } from './tela-competitividade.png';
+export { default as Passo2 } from './categorizacao-automatica-produtos.png';
+export { default as Passo3 } from './perguntas-plataforma.png';
+export { default as Passo4 } from './geracao-etiquetas.png';
+export { default as Passo5 } from './excecoes-logisticas.png';
+export { default as Passo6 } from './dashboard-operacional.png';
+export { default as Passo7 } from './integracao-nota-fiscal.png';
+// export { default as Passo8 } from './';
 
-module.exports = { Passo0, Passo1, Passo2 }
