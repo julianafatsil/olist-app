@@ -2,6 +2,7 @@ import React, { Component, useState } from 'react';
 import Image from '../features/components/Image';
 import Olistinho from '../image/olistinho-feliz.png';
 import { Redirect } from 'react-router-dom';
+import '../styles/Welcome.css';
 
 const Welcome = () => {
   const [isRedirect, setIsRedirect] = useState(false);

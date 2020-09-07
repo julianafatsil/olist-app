@@ -1,9 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Login from './pages/Login';
-import Welcome from './pages/Welcome';
-import './App.css';
-import Dashboard from './pages/Dashboard';
+import { Dashboard, Welcome, Login } from './pages/Index';
 
 function App() {
   return (

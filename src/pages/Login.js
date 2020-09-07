@@ -17,27 +17,33 @@ const Login = () => {
   return (
     <div className="login">
       <div className="login-app">
-      <Image alt="Celular de cor verde água" src={mobile} width="100px" />
-          <h3>conheça o novo aplicativo olist </h3>
-          <span> Acesse sua conta do olist pelo celular
-          e tenha mais tempo para focar na competitividade da sua loja.
+        <Image alt="Celular de cor verde água" src={mobile} width="100px" />
+        <h3>conheça o novo aplicativo olist </h3>
+        <span>
+          Acesse sua conta do olist pelo celular e tenha mais tempo para focar
+          na competitividade da sua loja.
         </span>
-        <div>
-        <Image alt="Simbolo do Google Play" src={googlePlay} width="150px" />
-        <Image alt="Simbolo App Store" src={appStore} width="150px" />
+        <div className="login-app-dowload">
+          <Image alt="Simbolo do Google Play" src={googlePlay} width="150px" />
+          <Image alt="Simbolo App Store" src={appStore} width="150px" />
         </div>
       </div>
-      <div>
+
+      <div className="login-user">
         <Image alt="Logo da Olist" src={logoOlist} width="100px" />
 
-        <span>email</span>
+        <label htmlFor="email">email</label>
         <Input
+          type="email"
           placeholder="ex.: seunome@email.com.br"
           id="email"
           name="email"
         />
-        <span>redefinir sua senha</span>
-        <span>senha</span>
+
+        <div className="login-user-pass">
+          <label htmlFor="senha">senha</label>
+          <span>redefinir sua senha</span>
+        </div>
         <Input
           type="password"
           placeholder="Digite sua senha"

@@ -1,13 +1,29 @@
 .login {
+    text-align: center;
     align-items: center;
     display: flex;
-    height: 10rem;
     justify-content: center;
-    margin-bottom: 5rem;
-    position: relative;
-    width: 60rem;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    justify-content: space-around;
   }
 
 .login-app {
-    flex-basis: 40%;
+    flex-basis: calc(30% - 50px);
+}
+
+.login-app-dowload {
+  display: flex;
+}
+
+.login-user {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-user-pass {
+  display: flex;
+  justify-content: space-between;
 }

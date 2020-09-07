@@ -53,6 +53,22 @@
   width: 100%;
 }
 
+.btn-previous {
+  background-color: #989898;
+}
+
+.btn-previous:hover {
+  background-color: #b1b1b1;
+}
+
+.btn-next {
+  background-color: #18C429;
+}
+
+.btn-next:hover {
+  background-color: #21d833;
+}
+
 @media screen and (max-width: 90em) {
 
   .card-help {
