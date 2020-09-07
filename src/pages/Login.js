@@ -25,8 +25,8 @@ const Login = () => {
           na competitividade da sua loja.
         </span>
         <div className="login-app-dowload">
-          <Image alt="Simbolo do Google Play" src={googlePlay} width="150px" />
-          <Image alt="Simbolo App Store" src={appStore} width="150px" />
+          <Image className="login-user-image-link" alt="Simbolo do Google Play" src={googlePlay} width="150px" />
+          <Image className="login-user-image-link" alt="Simbolo App Store" src={appStore} width="150px" />
         </div>
       </div>
 
@@ -44,7 +44,7 @@ const Login = () => {
 
         <div className="login-user-pass">
           <label className="login-user-card-text" htmlFor="senha">senha</label>
-          <span className="login-user-card-text">redefinir sua senha</span>
+          <span className="login-user-redefinir-senha" >redefinir sua senha</span>
         </div>
         <Input
           type="password"
@@ -63,7 +63,7 @@ const Login = () => {
         </div>
         <div className="login-user-new-client">
         <span>
-          Não é um cliente olist? <Link to="/"> Crie sua conta. </Link>
+          Não é um cliente olist? <Link className="login-user-redefinir-senha" to="/"> Crie sua conta. </Link>
         </span>
         </div>
         </div>

@@ -62,6 +62,6 @@ code {
   font-size: 2em !important;
 }
 
-.fa:hover {
+.fa-bell:hover {
   color: rgba(0, 0, 0, 0.5);
 }
