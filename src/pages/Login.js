@@ -18,6 +18,7 @@ const Login = () => {
     <div className="login">
       <div className="login-app">
         <Image alt="Celular de cor verde água" src={mobile} width="100px" />
+
         <h3>conheça o novo aplicativo olist </h3>
         <span>
           Acesse sua conta do olist pelo celular e tenha mais tempo para focar
@@ -30,9 +31,10 @@ const Login = () => {
       </div>
 
       <div className="login-user">
-        <Image alt="Logo da Olist" src={logoOlist} width="100px" />
+        <div className="login-user-card">
+        <Image alt="Logo da Olist" src={logoOlist} width="100px" className="login-app-olist" />
 
-        <label htmlFor="email">email</label>
+        <label className="login-user-card-text" htmlFor="email">email</label>
         <Input
           type="email"
           placeholder="ex.: seunome@email.com.br"
@@ -41,8 +43,8 @@ const Login = () => {
         />
 
         <div className="login-user-pass">
-          <label htmlFor="senha">senha</label>
-          <span>redefinir sua senha</span>
+          <label className="login-user-card-text" htmlFor="senha">senha</label>
+          <span className="login-user-card-text">redefinir sua senha</span>
         </div>
         <Input
           type="password"
@@ -50,6 +52,7 @@ const Login = () => {
           id="senha"
           name="senha"
         />
+        <div>
         <Button
           onClick={() => {
             setIsRedirect(true);
@@ -57,10 +60,13 @@ const Login = () => {
         >
           entrar
         </Button>
-
+        </div>
+        <div className="login-user-new-client">
         <span>
           Não é um cliente olist? <Link to="/"> Crie sua conta. </Link>
         </span>
+        </div>
+        </div>
       </div>
     </div>
   );

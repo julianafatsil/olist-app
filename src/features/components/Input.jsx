@@ -8,6 +8,7 @@ const Input = ({ type = 'text', placeholder, onChange, id, name }) => (
     onChange={onChange}
     placeholder={placeholder}
     type={type}
+    className="input"
   />
 );
 

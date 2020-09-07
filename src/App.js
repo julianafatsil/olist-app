@@ -1,6 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Dashboard, Welcome, Login } from './pages/Index';
+import './styles/css/font-awesome.min.css';
+
 
 function App() {
   return (

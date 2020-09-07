@@ -1,0 +1,22 @@
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border: 1px solid #D6D0D0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 100px;
+}
+
+.container-header-right {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.fa-bell {
+  color: rgba(255, 0, 0, 1);
+}

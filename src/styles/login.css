@@ -1,16 +1,18 @@
 .login {
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vw;
-    justify-content: space-around;
-  }
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
 
 .login-app {
-    flex-basis: calc(30% - 50px);
+  flex-basis: calc(30% - 50px);
+}
+
+.login-app-olist {
+  margin-bottom: 20px;
 }
 
 .login-app-dowload {
@@ -18,12 +20,45 @@
 }
 
 .login-user {
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  text-align: left;
+  flex: 1 1 0%;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
 }
 
 .login-user-pass {
   display: flex;
   justify-content: space-between;
+}
+
+.login-user-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-sizing: border-box;
+  max-width: 400px;
+  padding: 48px 50px 28px;
+  width: 100%;
+}
+
+.login-user-card-text {
+  color: rgb(49, 47, 79);
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  text-align: left;
+  width: 100%;
+}
+
+.login-user-new-client {  
+box-sizing: border-box;
+color: rgb(49, 47, 79);
+font-size: 0.89em;
+font-weight: normal;
+margin-top: 38px;
 }

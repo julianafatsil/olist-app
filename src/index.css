@@ -17,11 +17,51 @@ code {
 }
 
 .btn {
-  color: #ffffff;
-  font-weight: 400;
-  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid transparent;
   cursor: pointer;
-  padding: 6px 12px;
+  display: inline-flex;
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  outline: 0px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s ease 0s, background 0.45s ease 0s;
+  font-size: 16px;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 16px;
+  background: rgb(13, 199, 139);
+  color: rgb(255, 255, 255);
+  width: 140px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.input {
+  background: white;
+  border: 1px solid rgb(182, 185, 208);
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 3px inset;
+  color: rgb(49, 47, 79);
+  width: 100%;
   font-size: 14px;
-  border: 0;
+  line-height: 24px;
+  height: 44px;
+  padding: 10px 16px;
+}
+
+.fa {
+  cursor: pointer;
+  font-size: 2em !important;
+}
+
+.fa:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
