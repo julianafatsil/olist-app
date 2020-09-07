@@ -7,7 +7,7 @@ import Image from '../Image';
 const qtdFaturamento = 5;
 const CardFaturamento = () => {
   return (
-    <Col className="card-step" lg={3} md={6} sm={12}>
+    <Col className="card-step card-step-yellow" lg={3} md={6} sm={12}>
       <Row>
         <Col className="card-step-title">Aguardando faturamento</Col>
       </Row>

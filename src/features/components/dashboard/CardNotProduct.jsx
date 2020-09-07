@@ -4,10 +4,10 @@ import './css/CardDashboard.css';
 
 const CardNotProduct = () => {
   return (
-    <Col className="container-larg">
+    <Col className="container-larg card-step-white">
       <Row>
-        <Col sm={8} className="container-larg-title-sem-prod">Produtos Sem Estoque</Col>  
-        <Col className="container-total">344</Col>  
+        <Col sm={10} className="container-larg-title-center">Produtos Sem Estoque</Col>  
+        <Col className="card-step-content-total container-larg-total">344</Col>  
       </Row>
     </Col>
   );

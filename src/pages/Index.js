@@ -5,3 +5,4 @@ export { default as Order } from './Order';
 export { default as Product } from './Product';
 export { default as Questions } from './Questions';
 export { default as Forum } from './Forum';
+export { default as Financeiro } from './Financeiro';

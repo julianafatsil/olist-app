@@ -4,10 +4,10 @@ import './css/CardDashboard.css';
 
 const CardLarg = () => {
   return (
-    <Col className="container-larg" md={6}>
+    <Col className="container-larg card-step-white" md={6}>
       <Row>
         <Col md={3}>Gráfico</Col>  
-        <Col className="container-larg-title-pergunta">Perguntas</Col>  
+        <Col className="container-larg-title-left">Perguntas Concluídas</Col>  
       </Row>  
     </Col>
   );

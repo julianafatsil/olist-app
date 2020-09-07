@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/CardNotification.css';
+import './css/Header.css';
 
 const CardNotification = () => {
   return (

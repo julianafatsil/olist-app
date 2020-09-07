@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Header, Menu } from "../features/components/Index";
 
-const Forum = () => {
+const Financeiro = () => {
   return (
     <React.Fragment>
       <Container fluid>
@@ -14,7 +14,7 @@ const Forum = () => {
             <Menu />
           </Col>
           <Col>
-            <Row>FORUM</Row>
+            <Row>FINANCEIRO</Row>
           </Col>
         </Row>
       </Container>
@@ -22,4 +22,4 @@ const Forum = () => {
   );
 };
 
-export default Forum;
+export default Financeiro;

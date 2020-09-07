@@ -64,7 +64,3 @@ code {
   cursor: pointer;
   font-size: 2em !important;
 }
-
-.fa-bell:hover {
-  color: rgba(0, 0, 0, 0.5);
-}
