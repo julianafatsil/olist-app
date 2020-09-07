@@ -1,0 +1,43 @@
+.container-larg {
+  background-color: black;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+}
+
+.container-larg-title-pergunta {
+  font-size: 1.5em;
+}
+
+.container-larg-title-sem-prod {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+
+.card-step {
+  background-color: blue;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card-step-title {
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.card-step-content {
+  margin-top: 20px;
+}
+
+.card-step-content-image {
+  width: 90%;
+}
+
+.card-step-content-total {
+  font-size: 5em;
+  font-weight: 600;
+  text-align: right;
+}
