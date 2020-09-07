@@ -1,0 +1,11 @@
+.container-dashboard {
+color: #ffffff;
+  flex-basis: 79%;
+  display: flex;
+}
+
+.container-dashboard-larg {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+}

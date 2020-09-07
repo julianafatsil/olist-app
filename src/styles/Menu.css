@@ -1,7 +1,6 @@
 .menu {
   display: flex;
   flex-direction: column;
-  position: absolute;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -12,12 +11,12 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 10px 20px;
   height: 100vw;
+  flex-basis: 21%;
 }
 
 .menu-fechado {
   display: flex;
   flex-direction: column;
-  position: absolute;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -27,8 +26,7 @@
   background-color: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 10px 10px;
-  height: 100vw;
-  width: 70px;
+  flex-basis: 70px;
   text-align: center;
 }
 

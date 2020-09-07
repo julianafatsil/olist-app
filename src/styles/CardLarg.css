@@ -1,0 +1,8 @@
+.container-larg {
+  background-color: black;
+  color: #ffffff;
+  flex-basis: 50%;
+  margin: 10px;
+  display: flex;
+  height: 100px;
+}
