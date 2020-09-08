@@ -25,7 +25,7 @@ const New = ({setLocal}) => {
       <div className="new-content">
         <div className="new-content-gray">
           <Image src={Feliz} width={80} />
-          <h1>Oi! Essa é o Olistinha, o bebê virtual que vai guiar seus primeiros passos na Olist! </h1>
+          <h1>Oi! Essa é o Olistinho, o bebê virtual que vai guiar seus primeiros passos na Olist! </h1>
         </div>
         <div className="new-content-progress">
           <Button
