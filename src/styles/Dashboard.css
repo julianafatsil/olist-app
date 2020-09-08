@@ -1,0 +1,99 @@
+.container-dashboard {
+color: #ffffff;
+  flex-basis: 79%;
+  display: flex;
+}
+
+.container-dashboard-larg {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+
+.new {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  z-index: 5;
+}
+
+.new-content {
+  -moz-border-radius: 2%;
+  -webkit-border-radius: 2%;
+  background-color: #eeeeee;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  text-align: center;
+  width: 30%;
+}
+
+.new-content-progress {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.new-content h1 {
+  font-size: 1.2em;
+}
+
+.new-content-progress  button {
+  padding: 10px 20px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #F37500;
+}
+
+.new-content-progress  button:hover {
+  background-color: #ee8f36;
+  color: #ffffff;
+}
+
+.new-content-gray {
+  background-color: #C4C4C4;
+}
+
+.card-help-barra {
+  background-color: #c4c4c4;
+  height: 18px;
+  width: 80%;
+}
+
+.btn-previous {
+  background-color: #989898;
+}
+
+.btn-previous:hover {
+  background-color: #b1b1b1;
+}
+
+.btn-next {
+  background-color: #18C429;
+}
+
+.btn-next:hover {
+  background-color: #21d833;
+}
+
+@media screen and (max-width: 90em) {
+
+  .card-help {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 54em) {
+
+  .card-help {
+    width: 80%;
+  }
+}

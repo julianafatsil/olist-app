@@ -1,0 +1,122 @@
+.container-larg {
+  background-color: black;
+  color: #ffffff;
+  padding: 10px;
+  margin: 30px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container-larg-title-center {
+  font-size: 2em;
+  text-align: center;
+  color: #cccccc;
+}
+
+.container-larg-total {
+  color: #cccccc !important;
+}
+
+.container-larg-title-left {
+  font-size: 2.5em;
+  text-align: left;
+  display: flex;
+  margin-top: 7%;
+}
+
+.card-step {
+  background-color: blue;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-step-title {
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: right;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-step-content {
+  margin-top: 20px;
+}
+
+.card-step-content-image {
+  width: 90%;
+}
+
+.card-step-content-total {
+  color: #ffffff;
+  font-size: 5em;
+  font-weight: 600;
+  text-align: right;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-step-content-total-sem {
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-step-content-total-sem-mini {
+  font-size: 0.4em;
+}
+
+.card-step-yellow {
+  background: #ffc91a;
+  box-shadow: 0px 6px 6px rgba(255, 201, 26, 0.25);
+}
+
+.card-step-yellow:hover {
+  background: #fdd552;
+}
+
+.card-step-blue {
+  background: #2abbe9;
+  box-shadow: 0px 6px 6px rgba(42, 187, 233, 0.25);
+}
+
+.card-step-blue:hover {
+  background: #59caec;
+}
+
+.card-step-orange {
+  background: #ff6600;
+  box-shadow: 0px 6px 6px rgba(255, 102, 0, 0.25);
+}
+
+.card-step-orange:hover {
+  background: #f3863d;
+}
+
+.card-step-green {
+  background: #6fcf6c;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.card-step-green:hover {
+  background: #83d181;
+}
+
+.card-step-ibisco {
+  background: #ff5757;
+  box-shadow: 0px 6px 6px rgba(252, 64, 64, 0.25);
+}
+
+.card-step-ibisco:hover {
+  background: #fc6c6c;
+}
+
+.card-step-white {
+  background: #fbfbfb;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  color: #cccccc;
+}
+
+.card-step-white:hover {
+  background: rgb(255, 245, 245);
+}

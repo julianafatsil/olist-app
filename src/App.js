@@ -1,57 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import { Dashboard, Welcome, Login, Order, Product, Questions, Forum, Financeiro } from './pages/Index';
+import './styles/css/font-awesome.min.css';
+import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <React.Fragment>
+          <Switch>
+          <Route exact path="/welcome" component={Welcome} />
+          <Route exact path="/order" component={Order} />
+          <Route exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/product" component={Product} />
+          <Route exact path="/questions" component={Questions} />
+          <Route exact path="/forum" component={Forum} />
+          <Route exact path="/financeiro" component={Financeiro} />
+          <Route exact path="/" component={Login} />
+        </Switch>
+    </React.Fragment>
   );
 }
 

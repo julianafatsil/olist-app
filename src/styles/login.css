@@ -1,0 +1,92 @@
+.login {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(15, 27, 103);
+}
+
+.login-app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: calc(40% - 10px);
+  box-sizing: border-box;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  max-width: 550px;
+  min-height: 100vh;
+}
+
+.login-app-olist {
+  margin-bottom: 20px;
+}
+
+.login-app-dowload {
+  display: flex;
+  margin-top: 33px;
+  justify-content: space-between;
+}
+
+.login-app-dowload .login-user-image-link {
+  flex-basis: 20%;
+}
+
+.login-user {
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.login-user-pass {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-user-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-sizing: border-box;
+  max-width: 400px;
+  padding: 48px 50px 28px;
+  width: 100%;
+}
+
+.login-user-card-text {
+  color: rgb(49, 47, 79);
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  text-align: left;
+  width: 100%;
+}
+
+.login-user-new-client {  
+box-sizing: border-box;
+color: rgb(49, 47, 79);
+font-size: 0.89em;
+font-weight: normal;
+margin-top: 38px;
+}
+
+.login-user-redefinir-senha {
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgb(12, 41, 208);
+  cursor: pointer;
+  text-decoration: none;
+  }

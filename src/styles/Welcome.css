@@ -1,0 +1,36 @@
+.container-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .container-welcome img {
+    width: 30%;
+  }
+  
+  .container-welcome h2 {
+    width: 30%;
+    color: #cccccc;
+    font-size: 1.5em;
+  }
+  
+  /* MEDIA 672px */
+  
+  @media screen and (max-width: 42em) {
+  
+    .container-welcome h2 {
+      font-size: 1em;;
+    }
+  } 
+  
+  /* MEDIA 512px */
+  
+  @media screen and (max-width: 32em) {
+  
+    .container-welcome h2 {
+      width: 50%;
+    }
+  } 
