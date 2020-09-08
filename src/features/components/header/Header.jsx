@@ -1,11 +1,12 @@
-import React from "react";
-import { Row, Col } from "react-bootstrap";
-import "./css/Header.css";
-import CardRank from "../CardRank";
-import Image from "../Image";
-import Logo from "../../../image/logo-olist.svg";
-import Olistinho from "../../../image/olistinho-feliz.png";
-import CardNotification from "./CardNotification";
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
+import './css/Header.css';
+import CardRank from '../CardRank';
+import Image from '../Image';
+import Logo from '../../../image/logo-olist.svg';
+import Olistinho from '../../../image/olistinho-feliz.png';
+import CardNotification from './CardNotification';
+import AlertsNotification from '../../functions/AlertsNotification';
 
 const onClickBars = () => {
   document.getElementById("js-menu").classList.toggle("ds-none");
@@ -13,6 +14,10 @@ const onClickBars = () => {
 
 const onClickBell = () => {
   document.getElementById("notification").classList.toggle("ds-block");
+  return <AlertsNotification typeMessage={'danger'} />
+  // <AlertsNotification typeMessage={'warning'} />
+  // <AlertsNotification typeMessage={'sucess'} />y
+  
 };
 
 const Header = () => {
@@ -23,7 +28,6 @@ const Header = () => {
           <i class="fa fa-bars" onClick={onClickBars} aria-hidden="true"></i>
           <Image src={Logo} width={80} />
         </Col>
-
         <Col sm={4}></Col>
 
         <Col sm={2}>

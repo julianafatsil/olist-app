@@ -2,6 +2,7 @@ import React from "react";
 import "./header/css/Header.css";
 import { OverlayTrigger, Tooltip, Button, Image } from "react-bootstrap";
 import OlistinhoFeliz from "../../image/olistinho-feliz.png";
+import Moedinhas from '../../image/moedinha.png';
 
 const CardRank = () => {
   return (
@@ -16,7 +17,7 @@ const CardRank = () => {
             {...triggerHandler}
             className="d-inline-flex align-items-center"
           >
-            <i ref={ref} class="fa fa-star" aria-hidden="true"></i>
+           <Image src={Moedinhas} alt="Moedinhas" width={40} />
           </Button>
         )}
       </OverlayTrigger>

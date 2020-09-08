@@ -8,5 +8,5 @@ export { default as Passo6 } from './dashboard-operacional.png';
 export { default as Passo7 } from './oferta-inteligente.png';
 export { default as Passo8 } from './integracao-nota-fiscal.png';
 
-export { default as Engatinhando } from './olistinho-engatinhando.png';
+export { default as Engatinhando } from './olistinho-gatinhando-feliz.png';
 

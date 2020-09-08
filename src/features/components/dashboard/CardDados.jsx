@@ -6,12 +6,12 @@ const CardDados = () => {
   return (
     <Col className="card-step" sm={12} lg={6}>
         <Row>
-            <Col className="card-step-title">OI</Col>
+            <Col className="card-step-title"></Col>
         </Row>
-            <Col className="card-step">OI</Col>
+            <Col className="card-step"></Col>
         <Row className="card-step-content">
-            <Col>Uma</Col>
-            <Col className="card-step-content-total">Duas</Col>
+            <Col></Col>
+            <Col className="card-step-content-total"></Col>
         </Row>
     </Col>
   );

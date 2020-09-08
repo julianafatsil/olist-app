@@ -27,7 +27,7 @@ const CardHelp = () => {
           alt="Olistinho está engatinhando até o final para concluir a apresentação do sistema Olist"
           className="card-help-img-olistinho"
           width={100}
-          style={{position: 'relative', left: '-200px'}} // 165px
+          style={{position: 'relative', left: `${-200 + (step * 40)}px`}}
         />
         </div>
 

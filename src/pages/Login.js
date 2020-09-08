@@ -37,7 +37,7 @@ const Login = () => {
         <label className="login-user-card-text" htmlFor="email">email</label>
         <Input
           type="email"
-          placeholder="ex.: seunome@email.com.br"
+          value="Oliviadutra@gmail.com"
           id="email"
           name="email"
         />
@@ -48,7 +48,7 @@ const Login = () => {
         </div>
         <Input
           type="password"
-          placeholder="Digite sua senha"
+          value="123"
           id="senha"
           name="senha"
         />
@@ -57,6 +57,7 @@ const Login = () => {
           onClick={() => {
             setIsRedirect(true);
           }}
+          className="btn-primary"
         >
           entrar
         </Button>

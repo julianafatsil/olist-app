@@ -21,7 +21,7 @@ cursor: pointer;
 }
 
 .fa-bell {
-  color: rgba(0, 0, 0, 0.5);
+  color: yellow !important;
 }
 
 .fa-bars {
@@ -59,6 +59,14 @@ cursor: pointer;
   display: none;
 }
 
+.fa-star {
+  color: yellow !important;
+}
+
+.fa-heart {
+  color: red !important;
+}
+
 .container-rank {
   display: flex;
   justify-content: center;
@@ -93,4 +101,5 @@ cursor: pointer;
   text-transform: uppercase;
   font-size: 1em;
   text-align: center;
+  color: black
 }
